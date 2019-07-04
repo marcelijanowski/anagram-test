@@ -1,5 +1,7 @@
 # Anagram API
 
+## [Heroku working API](https://anagram-moj-test.herokuapp.com/crepitus)
+
 ## Prerequest
 
 1. [Install yarn and node on you local machine](#install-yarn-and-node-on-you-local-machine)
