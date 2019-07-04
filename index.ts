@@ -3,9 +3,10 @@ import app from './src/app';
 import routes from './src/routes';
 
 try {
+  const port = process.env.PORT || 3000
   app.use('/', routes());
   const httpServer = http.createServer(app);
-  httpServer.listen(8000);
+  httpServer.listen(port);
 } catch (error) {
   process.exit(1);
 }
