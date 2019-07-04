@@ -47,7 +47,7 @@ describe('Anagram', () => {
         "tinsel"
       ],
       "boaster": [
-        "barotse",
+        "Barotse",
         "boaters",
         "borates",
         "rebatos",

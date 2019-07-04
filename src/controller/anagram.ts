@@ -18,7 +18,7 @@ export const getAnagram = (request: Request, response: Response,  next: NextFunc
     readStream
       .pipe(es.split())
       .pipe(es.mapSync((line: string) => anagramsArray.map((item: string) => {
-        anagrams[item] =  line.toLowerCase() !== item.toLowerCase() && isAnagram(line, item) ? [...anagrams[item],...[line.toLowerCase()]] : anagrams[item];
+        anagrams[item] =  line.toLowerCase() !== item.toLowerCase() && isAnagram(line, item) ? [...anagrams[item],...[line]] : anagrams[item];
     })))
     readStream.on('end', () => {
       response
