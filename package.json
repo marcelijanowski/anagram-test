@@ -6,19 +6,11 @@
   "author": "Marceli Janowski <marceli@mjdesign.pl>",
   "license": "MIT",
   "devDependencies": {
-    "@types/dotenv": "^6.1.1",
-    "@types/event-stream": "^3.3.34",
-    "@types/express": "^4.17.0",
-    "@types/helmet": "^0.0.43",
-    "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.12",
-    "@types/supertest": "^2.0.8",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
     "prettier": "1.18.2",
-    "supertest": "^4.0.2",
-    "typescript": "^3.5.2"
+    "supertest": "^4.0.2"
   },
   "scripts": {
     "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --exec 'ts-node --project tsconfig.json' ./index.ts",
@@ -36,11 +28,19 @@
     "node": "10.x"
   },
   "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/event-stream": "^3.3.34",
+    "@types/express": "^4.17.0",
+    "@types/helmet": "^0.0.43",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.12",
+    "@types/supertest": "^2.0.8",
     "dotenv": "^8.0.0",
     "event-stream": "^4.0.1",
     "express": "^4.17.1",
     "helmet": "^3.18.0",
     "semver": "^6.2.0",
-    "ts-node": "^8.3.0"
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
   }
 }
