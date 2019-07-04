@@ -15,7 +15,8 @@
   "scripts": {
     "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --exec 'ts-node --project tsconfig.json' ./index.ts",
     "start": "ts-node --project tsconfig.json ./index.ts",
-    "e2e": "jest --testPathPattern=/tests/functional"
+    "e2e": "jest --testPathPattern=/tests/functional",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
   },
   "husky": {
     "hooks": {

@@ -1,6 +1,14 @@
 # Anagram API
-
 ## [Heroku working API](https://anagram-moj-test.herokuapp.com/crepitus)
+Project is an api which based on pass world will give back anagram from text dictonary:
+Project is using 
+- Node/Express/Typescript
+- Jest for unit test
+- Supertest for e2e test
+- Helmet (Help secure Express apps with various HTTP headers)
+- Heroku 
+
+
 
 ## Prerequest
 
@@ -54,14 +62,6 @@ yarn dev
     └── index.ts                # app entry module with routing config
 
 ```
-
-### Running project though docker
-To run project on local machine run command:
-
-```
-docker-compose up
-```
-
 
 # Running e2e test
 
