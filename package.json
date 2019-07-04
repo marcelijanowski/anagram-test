@@ -15,9 +15,7 @@
   "scripts": {
     "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --exec 'ts-node --project tsconfig.json' ./index.ts",
     "start": "ts-node --project tsconfig.json ./index.ts",
-    "test": "jest  --testPathPattern=/src/",
-    "e2e:providers": "mocha -r ts-node/register --recursive tests/providers/*.spec.ts --timeout 25000",
-    "e2e": "NODE_ENV=test NODE_TLS_REJECT_UNAUTHORIZED=0  mocha -r ts-node/register --timeout 50000 --recursive tests/functional/**/*.spec.ts"
+    "e2e": "jest --testPathPattern=/tests/functional"
   },
   "husky": {
     "hooks": {
