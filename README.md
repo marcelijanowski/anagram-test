@@ -32,6 +32,14 @@ Clone the repo and install Node dependencies
 git clone git@github.com:marcelijanowski/anagram-test.git
 yarn install
 ```
+
+### Running project though docker
+To run project on local machine run command:
+
+```
+docker-compose up
+```
+
 ### Running project locally
 To run project on local machine run command:
 ```
@@ -45,6 +53,13 @@ yarn dev
 └── src                         # app source code
     └── index.ts                # app entry module with routing config
 
+```
+
+### Running project though docker
+To run project on local machine run command:
+
+```
+docker-compose up
 ```
 
 
